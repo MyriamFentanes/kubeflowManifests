@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/deploykf-dependencies/cert-manager"
+    path: "generated-output/manifests/deploykf-dependencies/cert-manager"
     helm:
       ignoreMissingValueFiles: true
       valueFiles:

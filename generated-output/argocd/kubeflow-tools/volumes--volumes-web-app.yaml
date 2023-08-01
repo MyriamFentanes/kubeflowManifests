@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/kubeflow-tools/volumes/volumes-web-app"
+    path: "generated-output/manifests/kubeflow-tools/volumes/volumes-web-app"
   destination:
     server: "https://kubernetes.default.svc"
     namespace: kubeflow

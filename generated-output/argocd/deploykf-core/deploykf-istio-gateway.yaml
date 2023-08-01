@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/deploykf-core/deploykf-istio-gateway"
+    path: "generated-output/manifests/deploykf-core/deploykf-istio-gateway"
     helm:
       ignoreMissingValueFiles: true
       valueFiles:

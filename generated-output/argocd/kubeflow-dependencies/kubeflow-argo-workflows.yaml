@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/kubeflow-dependencies/kubeflow-argo-workflows"
+    path: "generated-output/manifests/kubeflow-dependencies/kubeflow-argo-workflows"
     helm:
       ignoreMissingValueFiles: true
       valueFiles:

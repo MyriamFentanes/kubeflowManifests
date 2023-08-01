@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/deploykf-core/deploykf-profiles-generator"
+    path: "generated-output/manifests/deploykf-core/deploykf-profiles-generator"
     helm:
       ignoreMissingValueFiles: true
       valueFiles:

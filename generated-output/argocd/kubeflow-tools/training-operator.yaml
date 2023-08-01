@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/kubeflow-tools/training-operator"
+    path: "generated-output/manifests/kubeflow-tools/training-operator"
   destination:
     server: "https://kubernetes.default.svc"
     namespace: kubeflow

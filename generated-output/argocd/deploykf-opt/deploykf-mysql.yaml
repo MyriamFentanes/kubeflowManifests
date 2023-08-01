@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/deploykf-opt/deploykf-mysql"
+    path: "generated-output/manifests/deploykf-opt/deploykf-mysql"
     helm:
       ignoreMissingValueFiles: true
       valueFiles:

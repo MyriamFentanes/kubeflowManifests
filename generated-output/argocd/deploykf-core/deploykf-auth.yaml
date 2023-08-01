@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/deploykf-core/deploykf-auth"
+    path: "generated-output/manifests/deploykf-core/deploykf-auth"
     helm:
       ignoreMissingValueFiles: true
       valueFiles:

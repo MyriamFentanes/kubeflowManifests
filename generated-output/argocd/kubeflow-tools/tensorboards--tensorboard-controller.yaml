@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/kubeflow-tools/tensorboards/tensorboard-controller"
+    path: "generated-output/manifests/kubeflow-tools/tensorboards/tensorboard-controller"
   destination:
     server: "https://kubernetes.default.svc"
     namespace: kubeflow

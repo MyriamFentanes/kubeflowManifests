@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/kubeflow-tools/pipelines"
+    path: "generated-output/manifests/kubeflow-tools/pipelines"
   destination:
     server: "https://kubernetes.default.svc"
     namespace: kubeflow

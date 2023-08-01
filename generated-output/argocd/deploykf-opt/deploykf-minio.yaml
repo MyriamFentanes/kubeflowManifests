@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/deploykf-opt/deploykf-minio"
+    path: "generated-output/manifests/deploykf-opt/deploykf-minio"
     helm:
       ignoreMissingValueFiles: true
       valueFiles:

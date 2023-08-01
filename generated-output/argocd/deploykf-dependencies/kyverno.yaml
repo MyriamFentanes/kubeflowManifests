@@ -14,7 +14,7 @@ spec:
   source:
     repoURL: "https://github.com/MyriamFentanes/kubeflowManifests.git"
     targetRevision: "main"
-    path: "/generated-output/manifests/deploykf-dependencies/kyverno"
+    path: "generated-output/manifests/deploykf-dependencies/kyverno"
     helm:
       ignoreMissingValueFiles: true
       valueFiles:
